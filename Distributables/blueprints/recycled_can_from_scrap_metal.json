@@ -1,0 +1,22 @@
+{
+  "Name": "SkilletFromScrapMetal",
+  "RequiredGear": [
+    {
+      "Item": "GEAR_ScrapMetal",
+      "Count": 2
+    }
+  ],
+  "RequiredPowder": [],
+  "KeroseneLitersRequired": 0,
+  "RequiredTool": "GEAR_Hammer",
+  "OptionalTools": [],
+  "RequiredCraftingLocation": "Forge",
+  "RequiresLitFire": true,
+  "RequiresLight": true,
+  "CraftedResult": "GEAR_RecycledCan",
+  "CraftedResultCount": 1,
+  "DurationMinutes": 50,
+  "CraftingAudio": "Play_CraftingMetal",
+  "AppliedSkill": "None",
+  "ImprovedSkill": "None"
+}
