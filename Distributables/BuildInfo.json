@@ -1,7 +1,7 @@
 {
     "Name" : "Cannery Manufacturing",
-    "Version" : "1.7.3",
+    "Version" : "2.5.8",
     "Author" : "Varrxion",
 	"Requires":[""],
-    "RequiresDLC": false
+    "RequiresDLC": true
 }
