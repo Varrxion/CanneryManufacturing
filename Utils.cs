@@ -21,6 +21,13 @@ namespace CanneryManufacturing
             }
         }
 
+        public static GearItem? LoadGearItemPrefab(string name)
+        {
+            GameObject? gameObject = Resources.Load<GameObject>(name);
+
+            return gameObject?.GetComponent<GearItem>();
+        }
+
         public static T? GetOrCreateComponent<T>(this GameObject? gameObject) where T : Component
         {
             if (gameObject == null)

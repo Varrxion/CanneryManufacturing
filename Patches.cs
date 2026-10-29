@@ -97,7 +97,8 @@ namespace CanneryManufacturing
                 gearItem.ForceWornOut();
             }
 
-            private static GearItem GetGearItemPrefab(string name) => GearItem.LoadGearItemPrefab(name).GetComponent<GearItem>();
+            private static GearItem GetGearItemPrefab(string name) =>
+                Utils.LoadGearItemPrefab(name) ?? throw new InvalidOperationException($"Unable to load gear item prefab '{name}'.");
         }
     }
 }

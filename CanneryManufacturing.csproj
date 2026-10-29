@@ -47,7 +47,7 @@
 
     <!--Included to allow nullability on this project-->
     <ItemGroup>
-      <PackageReference Include="STBlade.Modding.TLD.Il2CppAssemblies.Windows" Version="2.51.0" />
+      <PackageReference Include="MonsieurMeh.Modding.TLD.Il2CppAssemblies.Windows" Version="2.58.0" />
     </ItemGroup>
   
     <!--This is the list of assemblies that the mod references. Most of these are unnecessary for normal mods, but are included here for completeness.-->
